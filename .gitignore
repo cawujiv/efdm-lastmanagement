@@ -1,37 +1,36 @@
-# Abhängigkeiten
+# Dependencies
 node_modules/
-package-lock.json
-yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Umgebungsvariablen
+# Environment Variables
 .env
 .env.local
-.env.*.local
-
-# Build
-dist/
-build/
-.next/
+.env.development.local
+.env.test.local
+.env.production.local
 
 # IDE
 .vscode/
 .idea/
 *.swp
+*.swo
 *~
-.DS_Store
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# Cache
-.cache/
-.eslintcache
 
 # OS
+.DS_Store
 Thumbs.db
+Desktop.ini
 
-# Tmp
+# Build
+dist/
+build/
+*.log
+
+# Test Coverage
+coverage/
+
+# Temporary
 tmp/
 temp/
